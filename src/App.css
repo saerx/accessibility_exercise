@@ -1,7 +1,20 @@
-.header {
+
+.navigation {
   display: flex;
 }
 
 .skiptocontent {
-  display: none;
+  position: absolute;
+  left: -10000px;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+}
+
+.skiptocontent:focus, .skiptocontent:active {
+  left: 0;
+  width: auto;
+  height: auto;
+  overflow: visible;
+
 }

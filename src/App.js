@@ -4,10 +4,11 @@ import MainContentContainer from "./containers/MainContentContainer"
 function App() {
   return (
     <>
-    <div class="skiptocontent">
-      <a href="#maincontent">Skip to content</a>
-    </div>
-    <header class="header">
+    <header >
+      <a href="#maincontent" class="skiptocontent">Skip to content</a>
+    </header>
+    <br/>
+    <div class="navigation">
       <nav>
         <button>Button 1</button>
       </nav>
@@ -17,7 +18,7 @@ function App() {
       <nav>
         <button>Button 3</button>
       </nav>
-    </header>
+    </div>
       <MainContentContainer/>
     </>
   );

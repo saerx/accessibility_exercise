@@ -3,7 +3,7 @@ const MainContentContainer = () => {
     return (
     <>
         <h1>Accessibility Exercise</h1>
-        <div id="maincontent"> 
+        <div id="maincontent" tabindex="-1"> 
         <p>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus ac hendrerit leo. Donec a erat tincidunt magna lobortis pulvinar. Mauris accumsan sed nibh eget elementum. Cras aliquam mollis velit. Pellentesque sit amet pharetra metus. Pellentesque pretium efficitur magna, at suscipit orci consequat eu. Sed cursus tristique laoreet. Aliquam elementum sagittis efficitur.
         </p>
