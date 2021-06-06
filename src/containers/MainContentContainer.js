@@ -3,6 +3,7 @@ const MainContentContainer = () => {
     return (
     <>
         <h1>Accessibility Exercise</h1>
+        <div id="maincontent"> 
         <p>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus ac hendrerit leo. Donec a erat tincidunt magna lobortis pulvinar. Mauris accumsan sed nibh eget elementum. Cras aliquam mollis velit. Pellentesque sit amet pharetra metus. Pellentesque pretium efficitur magna, at suscipit orci consequat eu. Sed cursus tristique laoreet. Aliquam elementum sagittis efficitur.
         </p>
@@ -12,6 +13,7 @@ const MainContentContainer = () => {
         <p>
           Etiam malesuada odio libero, id accumsan ipsum feugiat ac. Praesent vel tempus diam. Vivamus eget nisi turpis. Nam euismod risus quis arcu fermentum, non interdum ante ultrices. Sed in cursus arcu. Nulla velit turpis, bibendum et congue sed, elementum non mi. Mauris et urna sed nibh iaculis fermentum.
         </p>
+        </div>
     </>
     )
 }
